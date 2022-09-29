@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ValidasiBimbinganKpActivity">
+    <RelativeLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EFF7F7"
+        tools:context="com.example.android.uiudacity.MainActivity">
+
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:src="@drawable/bgatas"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <ImageView
+
+            android:layout_width="900dp"
+            android:layout_height="800dp"
+            android:layout_marginLeft="250dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:padding="50dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/iconprofile"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/btn_kembali"
+            android:layout_width="71dp"
+            android:layout_height="69dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="72dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:onClick="Dashboard"
+            android:padding="15dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/iconkembali"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="252dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="90dp"
+            android:background="#000085F5"
+            android:backgroundTint="#000038FF"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Bimbingan"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.172"
+            app:layout_constraintVertical_bias="0.192" />
+
+        <ImageView
+
+            android:layout_width="410dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="180dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/kotak2"
+            android:visibility="visible"
+            tools:visibility="visible" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="140dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Kerja Praktek"
+            android:textColor="#425885"
+            android:textSize="25sp" />
+        <ImageView
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="200dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:scaleType="fitStart"
+            android:src="@drawable/iconprofil"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="200dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Dosen Pertama"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="230dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Sedang Diajukan"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <ImageView
+
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="210dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:scaleType="fitStart"
+            android:src="@drawable/detail"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <View
+            android:layout_width="370dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="260dp"
+            android:background="#000000"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="270dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Jadwal bimbingan"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="270dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Kuota"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="290dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Sabtu/09.30-11.30"
+            android:textColor="#000000"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="290dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="0/3"
+            android:textColor="#009933"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="310dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Senin/14.30-16.00"
+            android:textColor="#000000"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="310dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="0/3"
+            android:textColor="#009933"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="330dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Rabu/14.30-16.00"
+            android:textColor="#000000"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="330dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="0/3"
+            android:textColor="#009933"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="275dp"
+            android:layout_marginTop="290dp"
+            android:textColor="#ffffff"
+            android:background="#425885"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Ajukan Bimbingan" />
+
+
+        <ImageView
+
+            android:layout_width="410dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="430dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/kotak2"
+            android:visibility="visible"
+            tools:visibility="visible" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="390dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Tugas Akhir"
+            android:textColor="#425885"
+            android:textSize="25sp" />
+        <ImageView
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="450dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:scaleType="fitStart"
+            android:src="@drawable/iconprofil"
+            android:visibility="visible"
+            tools:visibility="visible" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="450dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Dosen Pertama"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="480dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Keterangan "
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <ImageView
+
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="460dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:scaleType="fitStart"
+            android:src="@drawable/detail"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <View
+            android:layout_width="370dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="510dp"
+            android:background="#000000"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="520dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Jadwal bimbingan"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="520dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Kuota"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="540dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Sabtu/09.30-11.30"
+            android:textColor="#000000"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="540dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="0/3"
+            android:textColor="#009933"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="560dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Senin/14.30-16.00"
+            android:textColor="#000000"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="560dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="0/3"
+            android:textColor="#009933"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="580dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Rabu/14.30-16.00"
+            android:textColor="#000000"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="580dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="0/3"
+            android:textColor="#009933"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="275dp"
+            android:layout_marginTop="540dp"
+            android:textColor="#ffffff"
+            android:background="#425885"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Ajukan Bimbingan" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

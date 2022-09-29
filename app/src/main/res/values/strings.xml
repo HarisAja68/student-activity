@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">StudentActivityShcedule</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array
+
+        name="android_dropdown_arrays">
+
+        <item>2022/Gasal</item>
+
+        <item>2021/Genap</item>
+
+        <item>2021/Gasal</item>
+
+        <item>2020/Genap</item>
+
+        <item>2020/Gasal</item>
+
+        <item>2019/Genap</item>
+
+        <item>2019/Gasal</item>
+
+
+    </string-array>
+</resources>
